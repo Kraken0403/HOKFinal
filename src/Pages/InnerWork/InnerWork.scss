@@ -80,12 +80,11 @@
 
 .hero-wrapper .anime-line{
     position: absolute;
-    width: 2px;
-    height: 100px;
+    width: 1px;
+    height: 88px;
     background: #e0e0e0;
     left: 50%;
-    top: 86%;
-    transform: translate(-50%, 50%);
+    bottom: 1%;
     animation: animate-line 2s linear infinite;
 }
 
@@ -94,8 +93,12 @@
         height: 0px;
     }
 
+    50%{
+      height: 88px;
+    }
+
     100% {
-        height: 100px;
+        height: 0px;
     }
 }
 

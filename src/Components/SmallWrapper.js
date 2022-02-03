@@ -67,8 +67,8 @@ function SmallWrapper(props) {
             scrollTrigger:{
                 trigger: "#smallWrapper",
                 scroller: 'body',
-                start: 'top 350px',
-               
+                start: 'top 250px',
+                            
             }
         }).from('.bg-text span', {
             y: '100px',
@@ -91,10 +91,10 @@ function SmallWrapper(props) {
             stagger: 0.15,
             opacity: 0,
             delay: 0.5,
-        }, "<0.5").from('.btn-appear',{
+        }, "<0.2").from('.btn-appear',{
             opacity: 0,
             y: '10px'
-        }, "<0.6");
+        }, "<0.3");
     }, [] )
 
     return (

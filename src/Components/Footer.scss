@@ -124,7 +124,9 @@
     #footer{
         padding-top: 60px;
     }
-
+    #footer .footer-main{
+        padding: 0 10px;
+    }
     #footer .scroll{
         display: none
     }
@@ -137,9 +139,9 @@
         }
     }
 
-    .dark-link__parent{
-        margin-left: 0px!important;
-    }
+    // .dark-link__parent{
+    //     margin-left: 0px!important;
+    // }
 
     .footer-caption{
         padding-left: 0px;

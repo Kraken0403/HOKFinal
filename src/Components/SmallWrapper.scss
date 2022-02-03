@@ -105,17 +105,21 @@
     #smallWrapper .small-wrapper h3{
         max-width: 100%;
         font-size: 28px;
-        margin-left: 20px;
-
+        margin-left: 10px;
+        margin-bottom: 30px;
         .line{
             height: 40px;
         }
     }
 
+    #smallWrapper .small-wrapper p:first-child{
+        margin-right: 10px;
+    }
+
     #smallWrapper .small-wrapper p{
         font-size: 16px;
-        margin-left: 10px;
-        margin-right: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
     }
 
     .dark-link__parent{
@@ -139,12 +143,17 @@
     #smallWrapper .small-wrapper h3{
         max-width: 100%;
         font-size: 28px;
-        margin-left: 20px;
-
+        margin-left: 10px;
+        margin-bottom: 30px;
         .line{
             height: 40px;
         }
     }
+
+    #smallWrapper .small-wrapper p:first-child{
+        margin-right: 10px;
+    }
+
 
     #smallWrapper .small-wrapper p{
         font-size: 16px;

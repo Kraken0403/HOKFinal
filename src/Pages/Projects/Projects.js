@@ -70,13 +70,13 @@ function Projects() {
             stagger: 0.1
         }, 0).from('#projects .bg-text span', {
             opacity: 0,
-            y:'50px',
+            y:'10px',
             stagger: 0.1
-        }).from('.menu__item', {
+        }, '<0.2').from('.menu__item', {
             opacity: 0,
             y: '20px',
             stagger: 0.1
-        })
+        }, '0.5')
     })
 
     return (
@@ -94,20 +94,6 @@ function Projects() {
                     
                 </div>
 
-                {/* <div className="projects-tab__inner">
-                    <button className="tabs-button" onClick={all}>
-                        All
-                    </button>
-
-                    <button className="tabs-button" onClick={residential}>
-                        Residential
-                    </button>
-
-                    <button className="tabs-button" onClick={comm}>
-                        Commercial
-                    </button>
-                </div> */}
-
             <div className="small-wrapper--custom">
             <div className="hover-list">
 
@@ -122,6 +108,10 @@ function Projects() {
 
                     <button className="tabs-button" onClick={comm}>
                         Commercial
+                    </button>
+
+                    <button className="tabs-button" onClick={comm}>
+                        Environment and Space Design
                     </button>
                 </div>
 

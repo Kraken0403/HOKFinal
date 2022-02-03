@@ -192,6 +192,11 @@
 }
 
 @media only screen and (max-width: 876px){
+
+    #contact .col-12{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .small-wrapper{
         h1{
             padding-left: 20px!important;
@@ -219,6 +224,4 @@
     #contact .radio-btns{
         display: none;
     }
-
-    
 }

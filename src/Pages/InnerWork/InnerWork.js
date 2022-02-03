@@ -190,7 +190,7 @@ export default class SingleProject extends Component{
                         {getData.HeroCaption2}
                       </div>
                     </h1>
-                    <span className="anime-line"></span>
+                    <div className="anime-line"></div>
                 </div>
            </div>  
 

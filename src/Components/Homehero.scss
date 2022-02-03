@@ -364,3 +364,29 @@
         line-height: 42px;
     }
 }
+
+.animated-dash{
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    height: 88px;
+    width: 1px;
+    display: inline-block;
+    background-color: #e0e0e0;
+    z-index: 5;
+    animation: animated 2s linear infinite reverse;
+}
+
+@keyframes animated {
+    0%{
+        height: 0px;
+    }
+
+    50%{
+        height: 88px;
+    }
+
+    100%{
+        height: 0px;
+    }
+}

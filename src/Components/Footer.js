@@ -15,7 +15,7 @@ function Footer() {
             scrollTrigger:{
                 trigger: "#footer",
                 scroller: 'body',
-                start: 'top 400px',
+                start: 'top 250px',
             
             }
         }).from('#footer .line-1 span', {

@@ -9,7 +9,7 @@ function Homehero() {
         <div>
             <div id="hero">
                 <div className="inner-hero">
-                <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
+                <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4500">
                     <div className="container-fluid">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" >
@@ -102,8 +102,13 @@ function Homehero() {
                         <FaFacebookF/>
                         <FaPinterestP/>
                     </div>
+
+                    <div className="animated-dash">
+                
+                    </div>
             </div>
         </div>
+           
         </div>
     )
 

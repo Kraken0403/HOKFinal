@@ -85,7 +85,7 @@ function Contact() {
                                 <div className="col-md-4"> <input type="tel" placeholder="tel" className="form-control" /> </div>
                             </div>
                             <div className="row mt-3">
-                                <div className="col-md-12"> <textarea className="form-control textarea" placeholder="message"rows="4"></textarea> </div>
+                                <div className="col-md-12 col-12"> <textarea className="form-control textarea" placeholder="message"rows="4"></textarea> </div>
                             </div>
                             
                             <div className="main-btn">

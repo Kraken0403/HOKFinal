@@ -1,8 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react'
 import './Gallery.scss'
-import sample2 from '../images/sample-2.jpg'
-import sample3 from '../images/sample-3.jpg'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
@@ -32,26 +30,6 @@ function Gallery(props) {
 
         bodyScrollBar.addListener(ScrollTrigger.update);
 
-
-        // let images = document.querySelectorAll('.preview-img img');
-        
-        // gsap.set('.preview-img img', {
-        //     yPercent: -7
-        // })
-        
-        // images.forEach((img, index) => {
-            
-        //     gsap.to(img, {
-        //         yPercent: 7,
-
-        //         scrollTrigger:{
-        //             scroller: 'body',
-        //             trigger: img,
-        //             scrub: true
-        //         }
-        //     })
-        // })
-
         
         gsap.utils.toArray(".preview-img .inner-img").forEach((section, i) => {
   
@@ -67,7 +45,26 @@ function Gallery(props) {
           ease: "none"
         });
           });     
+
+        gsap.timeline({
+            scrollTrigger:{
+                trigger: ".gallery",
+                scroller: 'body',
+                start: 'top 500px',
+                   
+            }
+        }).fromTo('.column-left', {
+            opacity: 0,
+        }, {
+            opacity: 1
+        }, 0).fromTo('.column-right', {
+            opacity: 0,
+        }, {
+            opacity: 1
+        }, 0);
     })
+
+    
     return (
         <div>
             <section className="gallery">
@@ -106,7 +103,7 @@ function Gallery(props) {
                             </div>
                         </div>
 
-                        <div className="column-right offset-1 offset-md-2">
+                        <div className="column-right offset-1 ">
                             <div className="preview-img five-wrapper" >
                                 {/* <img className="five-img" src={props.url5} alt="" /> */}
                                 <div className="inner-img" style={{backgroundImage: "url("+ props.url5 + ")"}}>

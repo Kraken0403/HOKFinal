@@ -117,8 +117,7 @@ function DraggableItems() {
             scrollTrigger:{
                 trigger: "#draggable",
                 scroller: 'body',
-                start: 'top 400px',
-               
+                start: 'top 250px',
             }
         }).fromTo('#draggable .bg-text span', {
             y: '100px',
@@ -126,7 +125,7 @@ function DraggableItems() {
             stagger: 0.2,
         }, {
             y: '0px',
-            opacity: 1,
+            opacity: 0.02,
             stagger: 0.2
         }, 0).from('#draggable .line-1 span', {
             y: '-100px',

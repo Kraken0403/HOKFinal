@@ -79,10 +79,13 @@
         letter-spacing: 9.4vw;
         text-transform: uppercase;
         color: #000000;
-        opacity: 0.02;
         display: flex;
         text-shadow: 9px 17px 25px rgba(0,0,0,0.12);
         pointer-events: none;
+
+        span{
+          opacity: 0;
+        }
     }
 
     .scroll_top{
@@ -131,6 +134,11 @@
   .about{
       max-width: 900px;
       margin: auto;
+
+      .row > *{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
   }
 
   .about-head{
@@ -178,18 +186,28 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+#draggable .slider{
+  display: none;
+}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px){
-
+  #draggable .slider{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
-
+  #draggable .slider{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
+  #draggable .slider{
+    display: none;
+  }
 }
 
 

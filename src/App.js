@@ -49,8 +49,8 @@ function App() {
                   <Route exact path="/" component={Home} />
                   <Route path="/about" component={About} />
                   <Route path="/inner" component={InnerWork} />
-                  <Route exact path="/projects" component={Projects} />
-                  <Route exact path="/projects/:id" render={props => (<InnerWork {...props}/>)}/>
+                  <Route path="/projects" component={Projects} />
+                  <Route path="/projects/:id" render={props => (<InnerWork {...props}/>)}/>
                   <Route path="/contacts" component={Contact} />
                   
               </Switch>
