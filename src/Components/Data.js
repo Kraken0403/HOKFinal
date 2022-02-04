@@ -7,96 +7,173 @@ import six from '../images/Homepage-Gallery/6.jpg'
 import seven from '../images/Homepage-Gallery/7.jpg'
 
 // Work One Data
-import W1hbg from './images/workOne/workOneHero.png'
-import W1pbg from './images/workOne/workOneParallex.png'
-import W1isl1 from './images/workOne/workOneWall.png'
-import W1isl2 from './images/workOne/workOneFurniture.png'
-import W1pi1 from './images/workOne/workOneProjectOne.png'
+import W1hbg from './images/workOne/workOneHero.webp'
+import W1pbg from './images/workOne/workOneParallex.webp'
+import W1isl1 from './images/workOne/workOneWall.webp'
+import W1isl2 from './images/workOne/workOneFurniture.webp'
+import W1pi1 from './images/workOne/workOneProjectOne.webp'
+
 
 // Work Two Data
 
-import W2hbg from './images/workTwo/workSixHero.png'
-import W2pbg from './images/workTwo/workSixParallex.png'
-import W2isl1 from './images/workTwo/workSixWall.png'
-import W2isl2 from './images/workTwo/workSixFurniture.png'
-import W2pi1 from './images/workTwo/workSixProjectOne.png'
+import W2hbg from './images/workTwo/workSixHero.webp'
+import W2pbg from './images/workTwo/workSixParallex.webp'
+import W2isl1 from './images/workTwo/workSixWall.webp'
+import W2isl2 from './images/workTwo/workSixFurniture.webp'
+import W2pi1 from './images/workTwo/workSixProjectOne.webp'
 
 
+// Work Three Data
 
-import W3hbg from './images/workThree/workEightHero.png'
-import W3pbg from './images/workThree/workEightParallex.png'
-import W3isl1 from './images/workThree/workEightWall.png'
-import W3isl2 from './images/workThree/workEightFurniture.png'
-import W3pi1 from './images/workThree/workEightProjectOne.png'
+import W3hbg from './images/workThree/workEightHero.webp'
+import W3pbg from './images/workThree/workEightParallex.webp'
+import W3isl1 from './images/workThree/workEightWall.webp'
+import W3isl2 from './images/workThree/workEightFurniture.webp'
+import W3pi1 from './images/workThree/workEightProjectOne.webp'
+
 
 
 // Work Four Data
 
-import W4hbg from './images/workFour/workTenHero.png'
-import W4pbg from './images/workFour/workTenParallex.png'
-import W4isl1 from './images/workFour/workTenWall.png'
-import W4isl2 from './images/workFour/workTenFurniture.png'
-import W4pi1 from './images/workFour/workTenProjectOne.png'
+import W4hbg from './images/workFour/workTenHero.webp'
+import W4pbg from './images/workFour/workTenParallex.webp'
+import W4isl1 from './images/workFour/workTenWall.webp'
+import W4isl2 from './images/workFour/workTenFurniture.webp'
+import W4pi1 from './images/workFour/workTenProjectOne.webp'
 
 
 
 // Work Five Data
 
-import W5hbg from './images/workFive/workThirteenHero.png'
-import W5pbg from './images/workFive/workThirteenParallex.png'
-import W5isl1 from './images/workFive/workThirteenWall.png'
-import W5isl2 from './images/workFive/workThirteenFurniture.png'
-import W5pi1 from './images/workFive/workThirteenProjectOne.png'
-
+import W5hbg from './images/workFive/workThirteenHero.webp'
+import W5pbg from './images/workFive/workThirteenParallex.webp'
+import W5isl1 from './images/workFive/workThirteenWall.webp'
+import W5isl2 from './images/workFive/workThirteenFurniture.webp'
+import W5pi1 from './images/workFive/workThirteenProjectOne.webp'
 
 
 // Work Six Data
 
-import W6hbg from './images/workSix/workFifteenHero.png'
-import W6pbg from './images/workSix/workFifteenParallex.png'
-import W6isl1 from './images/workSix/workFifteenWall.png'
-import W6isl2 from './images/workSix/workFifteenFurniture.png'
-import W6pi1 from './images/workSix/workFifteenProjectOne.png'
+import W6hbg from './images/workSix/workFifteenHero.webp'
+import W6pbg from './images/workSix/workFifteenParallex.webp'
+import W6isl1 from './images/workSix/workFifteenWall.webp'
+import W6isl2 from './images/workSix/workFifteenFurniture.webp'
+import W6pi1 from './images/workSix/workFifteenProjectOne.webp'
+
 
 
 
 // Work Seven Data
 
-import W7hbg from './images/workSeven/workNineteenHero.png'
-import W7pbg from './images/workSeven/workNineteenParallex.png'
-import W7isl1 from './images/workSeven/workNineteenWall.png'
-import W7isl2 from './images/workSeven/workNineteenFurniture.png'
-import W7pi1 from './images/workSeven/workNineteenProjectOne.png'
+import W7hbg from './images/workSeven/workNineteenHero.webp'
+import W7pbg from './images/workSeven/workNineteenParallex.webp'
+import W7isl1 from './images/workSeven/workNineteenWall.webp'
+import W7isl2 from './images/workSeven/workNineteenFurniture.webp'
+import W7pi1 from './images/workSeven/workNineteenProjectOne.webp'
+
+
+
 
 
 
 // Work Eight Data
 
-import W8hbg from './images/workEight/workTwentyTwoHero.png'
-import W8pbg from './images/workEight/workTwentyTwoParallex.png'
-import W8isl1 from './images/workEight/workTwentyTwoWall.png'
-import W8isl2 from './images/workEight/workTwentyTwoFurniture.png'
-import W8pi1 from './images/workEight/workTwentyTwoProjectOne.png'
+import W8hbg from './images/workEight/workTwentyTwoHero.webp'
+import W8pbg from './images/workEight/workTwentyTwoParallex.webp'
+import W8isl1 from './images/workEight/workTwentyTwoWall.webp'
+import W8isl2 from './images/workEight/workTwentyTwoFurniture.webp'
+import W8pi1 from './images/workEight/workTwentyTwoProjectOne.webp'
+
 
 
 
 // Work Nine Data
 
-import W9hbg from './images/workNine/workTwentyFourHero.png'
-import W9pbg from './images/workNine/workTwentyFourParallex.png'
-import W9isl1 from './images/workNine/workTwentyFourWall.png'
-import W9isl2 from './images/workNine/workTwentyFourFurniture.png'
-import W9pi1 from './images/workNine/workTwentyFourProjectOne.png'
+import W9hbg from './images/workNine/workTwentyFourHero.webp'
+import W9pbg from './images/workNine/workTwentyFourParallex.webp'
+import W9isl1 from './images/workNine/workTwentyFourWall.webp'
+import W9isl2 from './images/workNine/workTwentyFourFurniture.webp'
+import W9pi1 from './images/workNine/workTwentyFourProjectOne.webp'
 
 
 
 // Work Ten Data
 
-import W10hbg from './images/workTen/workTwentyEightHero.png'
-import W10pbg from './images/workTen/workTwentyEightParallex.png'
-import W10isl1 from './images/workTen/workTwentyEightWall.png'
-import W10isl2 from './images/workTen/workTwentyEightFurniture.png'
-import W10pi1 from './images/workTen/workTwentyEightProjectOne.png'
+import W10hbg from './images/workTen/workTwentyEightHero.webp'
+import W10pbg from './images/workTen/workTwentyEightParallex.webp'
+import W10isl1 from './images/workTen/workTwentyEightWall.webp'
+import W10isl2 from './images/workTen/workTwentyEightFurniture.webp'
+import W10pi1 from './images/workTen/workTwentyEightProjectOne.webp'
+
+
+
+// Work Eleven Data
+
+// import W11hbg from './images/workEleven/workThirtyThreeHero.png'
+// import W11pbg from './images/workEleven/workThirtyThreeParallex.png'
+// import W11isl1 from './images/workEleven/workThirtyThreeWall.png'
+// import W11isl2 from './images/workEleven/workThirtyThreeFurniture.png'
+// import W11pi1 from './images/workEleven/workThirtyThreeProjectOne.png'
+// import W11pi2 from './images/workEleven/workThirtyThreeProjectTwo.png'
+// import W11pi3 from './images/workEleven/workThirtyThreeProjectThree.png'
+// import W11pi4 from './images/workEleven/workThirtyThreeProjectFour.png'
+// import W11pi5 from './images/workEleven/workThirtyThreeProjectFive.png'
+
+
+
+// // Work Twelve Data
+
+// import W12hbg from './images/workTwelve/workThirtyOneHero.png'
+// import W12pbg from './images/workTwelve/workThirtyOneParallex.png'
+// import W12isl1 from './images/workTwelve/workThirtyOneWall.png'
+// import W12isl2 from './images/workTwelve/workThirtyOneFurniture.png'
+// import W12pi1 from './images/workTwelve/workThirtyOneProjectOne.png'
+// import W12pi2 from './images/workTwelve/workThirtyOneProjectTwo.png'
+// import W12pi3 from './images/workTwelve/workThirtyOneProjectThree.png'
+// import W12pi4 from './images/workTwelve/workThirtyOneProjectFour.png'
+// import W12pi5 from './images/workTwelve/workThirtyOneProjectFive.png'
+
+
+
+// // Work Thirteen Data
+
+// import W13hbg from './images/workThirteen/workThirtyHero.png'
+// import W13pbg from './images/workThirteen/workThirtyParallex.png'
+// import W13isl1 from './images/workThirteen/workThirtyWall.png'
+// import W13isl2 from './images/workThirteen/workThirtyFurniture.png'
+// import W13pi1 from './images/workThirteen/workThirtyProjectOne.png'
+// import W13pi2 from './images/workThirteen/workThirtyProjectTwo.png'
+// import W13pi3 from './images/workThirteen/workThirtyProjectThree.png'
+// import W13pi4 from './images/workThirteen/workThirtyProjectFour.png'
+// import W13pi5 from './images/workThirteen/workThirtyProjectFive.png'
+
+
+
+// // Work Fourteen Data
+
+// import W14hbg from './images/workFourteen/workTwentySevenHero.png'
+// import W14pbg from './images/workFourteen/workTwentySevenParallex.png'
+// import W14isl1 from './images/workFourteen/workTwentySevenWall.png'
+// import W14isl2 from './images/workFourteen/workTwentySevenFurniture.png'
+// import W14pi1 from './images/workFourteen/workTwentySevenProjectOne.png'
+// import W14pi2 from './images/workFourteen/workTwentySevenProjectTwo.png'
+// import W14pi3 from './images/workFourteen/workTwentySevenProjectThree.png'
+// import W14pi4 from './images/workFourteen/workTwentySevenProjectFour.png'
+// import W14pi5 from './images/workFourteen/workTwentySevenProjectFive.png'
+
+
+
+// // Work Fifteen Data
+
+// import W15hbg from './images/workFifteen/workNineHero.png'
+// import W15pbg from './images/workFifteen/workNineParallex.png'
+// import W15isl1 from './images/workFifteen/workNineWall.png'
+// import W15isl2 from './images/workFifteen/workNineFurniture.png'
+// import W15pi1 from './images/workFifteen/workNineProjectOne.png'
+// import W15pi2 from './images/workFifteen/workNineProjectTwo.png'
+// import W15pi3 from './images/workFifteen/workNineProjectThree.png'
+// import W15pi4 from './images/workFifteen/workNineProjectFour.png'
+// import W15pi5 from './images/workFifteen/workNineProjectFive.png'
 
 
 export const InnerWorkContent = {

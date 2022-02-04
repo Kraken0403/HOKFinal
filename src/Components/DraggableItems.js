@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import './DraggableItems.scss'
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import Scrollbar from 'smooth-scrollbar';
 
 function DraggableItems() {
 
@@ -113,7 +112,7 @@ function DraggableItems() {
         splitTextHome1()
         splitTextHome2();
 
-        var tl3 = gsap.timeline({
+        gsap.timeline({
             scrollTrigger:{
                 trigger: "#draggable",
                 scroller: 'body',

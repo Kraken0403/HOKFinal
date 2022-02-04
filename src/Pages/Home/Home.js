@@ -15,13 +15,10 @@ import { HomeImages } from '../../Components/Data'
 
 function Home() {
 
-   
-    
-
     useEffect(()=>{
         
 
-        var tlh2 = gsap.timeline({
+        gsap.timeline({
             scrollTrigger:{
                 trigger: ".home-gallery__title",
                 scroller: 'body',
@@ -39,7 +36,7 @@ function Home() {
 
         })
 
-        var tlh1 = gsap.timeline({
+         gsap.timeline({
             scrollTrigger:{
                 trigger: '#hero',
                 scroller: 'body',

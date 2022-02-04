@@ -11,7 +11,7 @@ function Footer() {
     }
 
     useEffect(()=>{
-        var tl4 = gsap.timeline({
+        gsap.timeline({
             scrollTrigger:{
                 trigger: "#footer",
                 scroller: 'body',

@@ -9,7 +9,7 @@ function Contact() {
 
     useEffect(()=>{
 
-        var tl1 = gsap.timeline({
+        gsap.timeline({
             scrollTrigger:{
                 trigger: "#contact",
                 scroller: 'body',

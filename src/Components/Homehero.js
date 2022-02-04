@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Homehero.scss'
 import 'bootstrap'
 import { FaInstagram , FaFacebookF ,FaPinterestP} from 'react-icons/fa'

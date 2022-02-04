@@ -14,7 +14,7 @@ import Gallery from '../../Components/Gallery'
 
 import { InnerWorkContent } from '../../Components/Data'
 
-export default class SingleProject extends Component{
+export default class InnerWork extends Component{
 
     splitText5(){
         let titleText = document.querySelector('.line-14');
@@ -44,6 +44,10 @@ export default class SingleProject extends Component{
         const divisor = document.querySelector("#divisor");
         const handle = document.querySelector("#handle");
         const slider = document.querySelector("#slider");
+        const bluePrint = document.querySelector('.blueprints')
+        const bluePrintWidth = bluePrint.getBoundingClientRect().width;
+
+        divisor.style.backgroundSize = `${bluePrintWidth}px 100%`;
         
         handle.style.left = slider.value+"%";
         divisor.style.width = slider.value+"%";
@@ -159,12 +163,11 @@ export default class SingleProject extends Component{
 
     render() {
         let getId = this.props.match.params.id;
-     
-        console.log(InnerWorkContent.mainData);
 
         let getData = InnerWorkContent.mainData.find(function(e){
      
             if(e.id == getId){
+                console.log(e.id)
                 return e
             }
 
@@ -253,8 +256,6 @@ export default class SingleProject extends Component{
         <div className="blueprints-main">
             <div className="container-fluid">
                 <div className="blueprints">
-                    {/* <div className='img background-img' ></div>
-                    <div className='img foreground-img' ></div> */}
                     <div id="comparison">
                         <figure style={{backgroundImage: `url(${getData.ImgOneSlider})`}}>
                         <div id="handle"></div>

@@ -63,7 +63,7 @@ function SmallWrapper(props) {
         splitText3();
         splitText4();
 
-        var tl1 = gsap.timeline({
+        gsap.timeline({
             scrollTrigger:{
                 trigger: "#smallWrapper",
                 scroller: 'body',
